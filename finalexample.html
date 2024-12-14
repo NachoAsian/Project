@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li> <!-- Added link to Customer Reviews -->
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Steven Nacino, and I am an avid sneakerhead with a passion for creativity and style. Growing up surrounded by sneaker culture, I developed an appreciation for sneakers, and I want to share that passion with others.</p>
+		<p>Through this portfolio, I invite you to explore my work and connect with me. Whether you're a fellow sneaker enthusiast or a potential collaborator, I'm excited to hear from you!</p>
+        <img src="profile.jpg" alt="Your photo" />
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Marketing</td>
+                <td>Advanced</td>
+            </tr>
+			</tr>
+				<td>Sneaker Design</td>
+				<td>Intermediate</td>
+			</tr>
+			</tr>
+				<td>Customer Service</td>
+				<td>Advanced</td> 
+        </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Project 1 -->
+        <div class="projects-section">
+            <div class="image-column">
+                <img src="sneakerdesign.jpg" alt="Project 1 Image">
+            </div>
+            <div class="description-column">
+                <h3>My Website Portfolio</h3>
+                <p>This project showcases my unique ability and overall imagination.</p>
+            </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="projects-section">
+            <div class="image-column">
+                <img src="lightningmcqueen.jpg" alt="Project 2 Image">
+            </div>
+            <div class="description-column">
+                <h3>Another Cool Project</h3>
+                <p>This is a custom shoe I made from the beloved series "Cars" Lightning Mcqueen.</p>
+            </div>
+        </div>
+    </section>
+
+ ><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form and Multimedia</title>
+    <style>
+        /* Form Styling */
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        /* Video and Audio Styling */
+        .media-section {
+            max-width: 600px;
+            margin: 40px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        video, audio {
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+	
+	<!-- Multimedia Section -->
+    <div class="media-section">
+        <h2>Project Demo</h2>
+        <!-- Embedded Video -->
+        <video controls>
+            <source src="demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Audio Demo</h2>
+        <!-- Embedded Audio -->
+        <audio controls>
+            <source src="demo-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</body>
+</html>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review">
+            <p>"John's web development skills are amazing! He helped us build our company website, and the results exceeded our expectations. Highly recommended!"</p>
+            <p><strong>- Jane Doe, CEO of Example Corp.</strong></p>
+        </div>
+
+        <div class="review">
+            <p>"I had the pleasure of working with Sarah on several web projects. Her attention to detail and creativity set her apart. Her work speaks for itself!"</p>
+            <p><strong>- Mark Smith, Project Manager at Tech Solutions</strong></p>
+        </div>
+
+        <div class="review">
+            <p>"A true professional. Alex helped me redesign my portfolio site, and I couldn’t be happier with the outcome. I highly recommend him!"</p>
+            <p><strong>- Emily Johnson, Freelance Designer</strong></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
